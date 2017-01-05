@@ -1,0 +1,69 @@
+﻿生成启动时间为 2017/1/5 17:34:09。
+     1>项目“F:\Huawei\07-D3D4【实战】演练和实战工程\project\subwayCharge_student\subwayCharge\subwayCharge.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\subwayCharge /IsubwayCard /IsubwayCommand /IsubwayCommon /IsubwayControl /IsubwayGlobal /IsubwayLine /IsubwayPrice /IsubwaySocket /IsubwayError /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt subwayCard\subwayCard.cpp subwayCharge.cpp subwayCommand\subwayCmdParse\src\cmdCreateCard.cpp subwayCommand\subwayCmdParse\src\cmdDeductProc.cpp subwayCommand\subwayCmdParse\src\cmdDestroyCard.cpp subwayCommand\subwayCmdParse\src\cmdFillCharge.cpp subwayCommand\subwayCmdParse\src\cmdQueryHistory.cpp subwayCommand\subwayCmdParse\src\cmdQueryLine.cpp subwayCommand\subwayCmdParse\src\cmdReset.cpp subwayCommand\subwayCmdParse\src\cmdSingleTicket.cpp subwayCommand\subwayCmdParse\subwayCmdParse.cpp subwayCommand\subwayCmdProc\src\subwayCreateCardProc.cpp subwayCommand\subwayCmdProc\src\subwayDeductProc.cpp subwayCommand\subwayCmdProc\src\subwayFillChargeProc.cpp subwayCommand\subwayCmdProc\src\subwayQueryHistoryProc.cpp subwayCommand\subwayCmdProc\src\subwayQueryLineProc.cpp subwayCommand\subwayCmdProc\src\subwayResetProc.cpp subwayCommand\subwayCmdProc\src\subwaySingleTicketProc.cpp subwayCommand\subwayCmdProc\subwayCmdProc.cpp subwayCommand\subwayOutput\subwayOutput.cpp subwayPrice\src\deductPrice.cpp subwaySocket\subwaySocket.cpp
+         subwayCard.cpp
+         subwayCharge.cpp
+         cmdCreateCard.cpp
+         cmdDeductProc.cpp
+         cmdDestroyCard.cpp
+         cmdFillCharge.cpp
+         cmdQueryHistory.cpp
+         cmdQueryLine.cpp
+         cmdReset.cpp
+         cmdSingleTicket.cpp
+         subwayCmdParse.cpp
+         subwayCreateCardProc.cpp
+         subwayDeductProc.cpp
+         subwayFillChargeProc.cpp
+         subwayQueryHistoryProc.cpp
+         subwayQueryLineProc.cpp
+     1>subwayCommand\subwayCmdProc\src\subwayQueryLineProc.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+         subwayResetProc.cpp
+         subwaySingleTicketProc.cpp
+         subwayCmdProc.cpp
+         subwayOutput.cpp
+         正在编译...
+         deductPrice.cpp
+         subwaySocket.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Huawei\07-D3D4【实战】演练和实战工程\project\subwayCharge_student\Release\subwayCharge.exe" /INCREMENTAL:NO /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Huawei\07-D3D4【实战】演练和实战工程\project\subwayCharge_student\Release\subwayCharge.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Huawei\07-D3D4【实战】演练和实战工程\project\subwayCharge_student\Release\subwayCharge.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
+         Release\subwayCard.obj
+         Release\subwayCharge.obj
+         Release\cmdCreateCard.obj
+         Release\cmdDeductProc.obj
+         Release\cmdDestroyCard.obj
+         Release\cmdFillCharge.obj
+         Release\cmdQueryHistory.obj
+         Release\cmdQueryLine.obj
+         Release\cmdReset.obj
+         Release\cmdSingleTicket.obj
+         Release\subwayCmdParse.obj
+         Release\subwayCreateCardProc.obj
+         Release\subwayDeductProc.obj
+         Release\subwayFillChargeProc.obj
+         Release\subwayQueryHistoryProc.obj
+         Release\subwayQueryLineProc.obj
+         Release\subwayResetProc.obj
+         Release\subwaySingleTicketProc.obj
+         Release\subwayCommonSplit.obj
+         Release\subwayCmdProc.obj
+         Release\subwayOutput.obj
+         Release\subwayError.obj
+         Release\subwayline.obj
+         Release\basePrice.obj
+         Release\deductPrice.obj
+         Release\subwaySocket.obj
+         Release\subwaycard_test.obj
+         Release\subwayline_test.obj
+         Release\subwayprice_test.obj
+         正在生成代码
+         All 1095 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         subwayCharge.vcxproj -> F:\Huawei\07-D3D4【实战】演练和实战工程\project\subwayCharge_student\Release\subwayCharge.exe
+     1>已完成生成项目“F:\Huawei\07-D3D4【实战】演练和实战工程\project\subwayCharge_student\subwayCharge\subwayCharge.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:32.32
